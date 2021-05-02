@@ -1,0 +1,131 @@
+[
+  {
+    "model": "customers.customer",
+    "pk": 1,
+    "uuid": "61843d32-3fb4-46e4-a5f1-72f2504ff631",
+    "fields": {
+      "first_name": "Patrick1",
+      "last_name": "Propst1",
+      "gender": "M",
+      "mobile_number": "0309829661",
+      "email": "nx0xw0a45cs1@temporary-mail.net",
+      "zip_code": "13359",
+      "house_number": "10",
+      "house_number_extension": "A",
+      "street": "Wedding",
+      "city": "Berlin",
+      "country": "DE",
+      "created_at": "2021-05-02T18:45:00Z",
+      "updated_at": "2021-05-02T18:45:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 1,
+    "uuid": "9fbf24e7-fb1d-4a47-8c35-c0dfb942d3e1",
+    "fields": {
+      "customer_id": 1,
+      "flavour": "margarita",
+      "size": "small",
+      "quantity": 1,
+      "created_at": "2021-05-02T18:45:00Z",
+      "updated_at": "2021-05-02T18:45:00Z"
+    }
+  },
+  {
+    "model": "orders.orderdeliverystatus",
+    "pk": 1,
+    "fields": {
+      "order_id": 1,
+      "delivery_status": "received",
+      "created_at": "2021-05-02T18:45:00Z",
+      "updated_at": "2021-05-02T18:45:00Z"
+    }
+  },
+  {
+    "model": "customers.customer",
+    "pk": 2,
+    "uuid": "61843d32-3fb4-46e4-a5f1-72f2504ff632",
+    "fields": {
+      "first_name": "Patrick2",
+      "last_name": "Propst2",
+      "gender": "M",
+      "mobile_number": "0309829662",
+      "email": "nx0xw0a45cs2@temporary-mail.net",
+      "zip_code": "13359",
+      "house_number": "10",
+      "house_number_extension": "A",
+      "street": "Wedding",
+      "city": "Berlin",
+      "country": "DE",
+      "created_at": "2021-05-02T18:45:00Z",
+      "updated_at": "2021-05-02T18:45:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 2,
+    "uuid": "9fbf24e7-fb1d-4a47-8c35-c0dfb942d3e2",
+    "fields": {
+      "customer_id": 2,
+      "flavour": "marinara",
+      "size": "medium",
+      "quantity": 2,
+      "created_at": "2021-05-02T18:45:00Z",
+      "updated_at": "2021-05-02T18:45:00Z"
+    }
+  },
+  {
+    "model": "orders.orderdeliverystatus",
+    "pk": 2,
+    "fields": {
+      "order_id": 2,
+      "delivery_status": "received",
+      "created_at": "2021-05-02T18:45:00Z",
+      "updated_at": "2021-05-02T18:45:00Z"
+    }
+  },
+  {
+    "model": "customers.customer",
+    "pk": 3,
+    "uuid": "61843d32-3fb4-46e4-a5f1-72f2504ff633",
+    "fields": {
+      "first_name": "Patrick3",
+      "last_name": "Propst3",
+      "gender": "M",
+      "mobile_number": "0309829663",
+      "email": "nx0xw0a45cs3@temporary-mail.net",
+      "zip_code": "13359",
+      "house_number": "10",
+      "house_number_extension": "A",
+      "street": "Wedding",
+      "city": "Berlin",
+      "country": "DE",
+      "created_at": "2021-05-02T18:45:00Z",
+      "updated_at": "2021-05-02T18:45:00Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 3,
+    "uuid": "9fbf24e7-fb1d-4a47-8c35-c0dfb942d3e3",
+    "fields": {
+      "customer_id": 3,
+      "flavour": "salami",
+      "size": "large",
+      "quantity": 3,
+      "created_at": "2021-05-02T18:45:00Z",
+      "updated_at": "2021-05-02T18:45:00Z"
+    }
+  },
+  {
+    "model": "orders.orderdeliverystatus",
+    "pk": 3,
+    "fields": {
+      "order_id": 3,
+      "delivery_status": "received",
+      "created_at": "2021-05-02T18:45:00Z",
+      "updated_at": "2021-05-02T18:45:00Z"
+    }
+  }
+]

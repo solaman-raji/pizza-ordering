@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=pizza_ordering
+POSTGRES_USER=yEpPXGDCNOnQvGlLynTdQOlMDhOMcdMt
+POSTGRES_PASSWORD=Tqc8pzOBn6g2mFgnhORdZGRu3protA0fU0T4xCBg8tCOHhEW1x
